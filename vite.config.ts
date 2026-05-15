@@ -7,7 +7,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: '/daywa/', 
+    base: '/daywa619/', 
     plugins: [
       react(), 
       tailwindcss(),
